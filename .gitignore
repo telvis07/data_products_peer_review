@@ -1,0 +1,5 @@
+.RData
+.Rhistory
+rsconnect
+.DS_Store
+data/songs.csv.gz
