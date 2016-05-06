@@ -11,7 +11,7 @@ load_csv_and_save_to_rds <- function() {
   # Will make the analysis quicker.
   
   print("Loading 1 million song data from disk. Be patient...")
-  # NOTE: I've excluded this file form github because it very large
+  # NOTE: I've excluded this file from github because it very large
   df <- read.csv("data/songs.csv.gz")
   print("Saving data/songs.rds")
   saveRDS(df, "data/songs.rds")
