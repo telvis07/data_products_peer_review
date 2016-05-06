@@ -66,9 +66,7 @@ prince_song_recommender <- function(song_hotttnesss=0.5, loudness=-8, top_n=5, d
   if (is.null(df)) {
     df <- readRDS("data/prince_clean.rds")  
   }
-  max_loudness = max(df$loudness)
-  min_loudness = min(df$loudness)
-  
+
   range01 <- function(x, datums){(x-min(datums))/(max(datums)-min(datums))}
   if(scale01) {
     x1 <- c(song_hotttnesss, range01(loudness, df$loudness))
