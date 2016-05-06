@@ -1,6 +1,6 @@
 ## Overview
 
-This project contains a [Prince song recommender](https://en.wikipedia.org/wiki/Prince_(musician)) developed as
+This project contains a [Prince song recommender](https://en.wikipedia.org/wiki/Prince_(musician\)) developed as
 a [R shiny application](http://shiny.rstudio.com/)
 
 ## Slides
