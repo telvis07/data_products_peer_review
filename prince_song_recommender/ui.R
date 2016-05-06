@@ -6,11 +6,11 @@ shinyUI(
     headerPanel("Prince Song Recommender"),
 
     sidebarPanel(
-      tags$p("Move the sliders from left or right to query the recommender."),
+      # tags$p("Move the sliders from left or right to query the recommender."),
       
       tags$div(title="0db is the loudest, more negative values are quieter", 
                sliderInput('loudness', 
-                  "loudness",
+                  "slide LEFT if you like quiet songs and RIGHT for loud songs",
                   max = -3.691, 
                   min = -13.218,
                   value = -8.0,
@@ -19,7 +19,7 @@ shinyUI(
       tags$div(title="1.0 is a very popular HIT song. Lower values are less-popular B-SIDE songs",
                sliderInput(
                 'song_hotttnesss', 
-                'song_hotttnesss',
+                'slide LEFT if you hate what\'s on the radio and RIGHT if you love popular songs',
                 min=0.2, 
                 max=1.0,
                 value=0.5,
