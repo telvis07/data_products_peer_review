@@ -6,8 +6,6 @@ shinyUI(
     headerPanel("Prince Song Recommender"),
 
     sidebarPanel(
-      # tags$p("Move the sliders from left or right to query the recommender."),
-      
       tags$div(title="0db is the loudest, more negative values are quieter", 
                sliderInput('loudness', 
                   "Step 1: slide LEFT if you like quiet songs and RIGHT for loud songs",
