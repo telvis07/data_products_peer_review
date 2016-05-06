@@ -28,6 +28,10 @@ shinyUI(
              "Click here to view the presentation slides that describe this project"),
       tags$br(),
       tags$br(),
+      tags$a(href="https://github.com/telvis07/data_products_peer_review/tree/master/prince_song_recommender",
+             "View the source"),
+      tags$br(),
+      tags$br(),
       tags$a(href="https://en.wikipedia.org/wiki/Prince_(musician)",
              "Click here for more info about Prince")
     ),
